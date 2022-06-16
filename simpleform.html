@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="./assets/css/simpleform.css">
+    </head>
+    <body>
+          <div>
+            <h2>Contact form</h2>
+          </div>
+          <div>
+            <p>Please fill in your information and we'll be sending your order in no time.</p>
+          </div>
+        <form class="content">  
+            <div>
+              <label>User Name</label>
+              <div class="text">
+                <input type="text" placeholder="First Name" class="input-field">
+                <input type="text" placeholder="last Name" class="input-field lastname">
+              </div>
+            </div><br>
+            <div>
+              <label>User Email</label>
+              <input type="email" class="input-field email" placeholder="e.g.hello@contact.net"><br>
+            </div><br><br>
+            <div class="gender">
+              <div>
+               <label>Gender</label>
+              </div> 
+              <div class="radio">
+                <div class="radio-input">
+                  <input type="radio" name="gender">Male
+                </div>
+                <div class="radio-input">
+                  <input type="radio" name="gender" class="female">Female
+                </div>
+                <div class="radio-input">
+                  <input type="radio" name="gender" class="other">Other
+                </div><br><br>  
+              </div>
+            </div><br>
+            <div>  
+              <label>Phone*</label>
+              <div class="number">
+                <input type="number" class="input-field" id="box1" placeholder="###"> 
+                <input type="number" class="input-field" id="box2" placeholder="###"> 
+                <input type="number" class="input-field" id="box3" placeholder="####"><br> 
+              </div>   
+            </div><br>
+            <div>
+             <label>Degree</label>
+             <select class="input-field select">
+                <option value="other">Other</option><br>
+                <option value="B.E">B.E</option><br>
+                <option value="M.E">M.E</option><br>
+                <option value="B.TECH">B.TECH</option><br>
+                <option value="M.TECH">M.TECH</option><br>
+              </select><br>
+            </div><br>
+            <div>
+              <label class="address-label">Address</label>
+              <textarea rows="4" class="input-field address" placeholder="Address">
+              </textarea><br>
+            </div><br>
+            <div>
+              <input type="checkbox" class="checkbox">        
+              The given details are true to the best of my knowledge
+            </div><br>    
+              <hr><br>
+            <div>
+              <button type="submit" class="input-field submit">SUBMIT FORM</button>
+            </div>
+        </form>      
+    </body>
+</html>

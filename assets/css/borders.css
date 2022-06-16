@@ -1,0 +1,28 @@
+.input-field{
+  width: 300px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.input-field:disabled{
+  background: rgba(255, 255, 255, 0.6);
+}
+.solid {
+  background: #FFFFFF;
+}
+.outlined {
+  border: 1px solid rgba(119, 119, 119, 1);
+  background: transparent;
+}
+.filled{
+  border-radius: 8px 8px 0px 0px;
+  background: #D5D5D5;
+  border-bottom: 1px solid #777777;
+}
+.text-center{
+  text-align: center;
+}
+

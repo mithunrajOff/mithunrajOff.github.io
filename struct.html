@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/struct.css">
+    <title>Document</title>
+    <script src="/assets/js/fireabse.js"></script>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <p class="font-size">Please fill in your information </p>
+    <form class="form">
+        <hr class="hr-width">    
+        <div class="form-content">
+            <div class="row display">
+                <div class="col1"><label for="User Name">User Name</label></div>
+                <div class="col2 display">
+                    <input type="text" id="User Name" class="input-field" placeholder="First Name">
+                    <input type="text" id="User Name" class="input-field" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="row display">
+                <div class="col1"><label for="User Email">User Email</label></div>    
+                <div class="col2 display">
+                   <input type="text" id="User Email" class="input-field" placeholder="e.g.hello@contact.net">
+                </div>
+            </div>
+            <div class="row display">
+               <div class="col1 row-spacing"><label for="Gender">Gender</label></div>
+               <div class="col2 justify-content display row-spacing">
+                  <span class="radio-spacing"><input type="radio" name="gender" id="Male" class="radio-space"><label for="Male">Male</label></span>
+                  <span class="radio-spacing"><input type="radio" name="gender" id="Female" class="radio-space"><label for="Female">Female</label></span>
+                  <span class="radio-spacing"><input type="radio" name="gender" id="Other" class="radio-space"><label for="Other">Other</label></span>
+                </div>
+            </div>
+            <div class="row display">    
+               <div class="col1"><label for="Phone">Phone*</label></div>
+               <div class="col2">    
+                  <input type="number" id="Phone" class="col-30" placeholder="###"> 
+                  <input type="number" id="Phone" class="col-30" placeholder="###"> 
+                  <input type="number" id="Phone" class="col-30" placeholder="####">  
+               </div> 
+            </div>
+            <div class="row display">   
+               <div class="col1"><label for="Degree">Degree</label></div>
+               <div class="col2">    
+                  <select class="input-field select-box-sizing">
+                      <option value="other">Other</option><br>
+                      <option value="B.E">B.E</option><br>
+                      <option value="M.E">M.E</option><br>
+                      <option value="B.TECH">B.TECH</option><br>
+                      <option value="M.TECH">M.TECH</option><br>
+                  </select>
+                </div>
+            </div>    
+            <div class="row display"> 
+                <div class="col1"><label for="Address">Address</label></div>
+                <div class="col2">    
+                    <textarea id="Address" class="address-input-sizing" rows="4" placeholder="Address"></textarea>
+                </div>
+            </div>
+            <div class="row display">    
+                <div class="col1"><label></label></div>
+                <div class="col2"><input type="checkbox" class="checkbox-spacing">The given details are true to the best of my knowledge</div>
+           </div>   
+        </div> 
+        <hr class="hr-width">     
+        <div>
+            <button type="submit" class="form-action">SUBMIT FORM</button>
+        </div>
+    </form>
+</body>
+</html>
